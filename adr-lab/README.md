@@ -15,6 +15,7 @@
 [Deploy this solution](#deploy-this-solution)
 
 [Validation](#validation)
+
 - [Scenario 1: Private endpoint DNS name resolution](#scenario-1-private-endpoint-dns-name-resolution-1)
 - [Scenario 2: On-premises and Azure DNS integration](#scenario-2-on-premises-and-azure-dns-integration-1)
 
@@ -45,6 +46,7 @@ The lab includes the following components:
 **Azure side:**
 
 - Azure Hub and two spokes virtual networks (VNETs) with their respective address spaces: 10.0.20.0/24 (Hub), 10.0.21.0/24 (Spoke1), and 10.0.22.0/24 (Spoke2)
+
 - Linux VMs on each Azure VNETs accessible via Serial Console or Bastion.
 - Each VNET has Private Endpoint towards their respective storage account.
 - Azure VPN Gateway Active/Active using BGP (ASN 65515) with a S2S VPN connection to On-premises.
